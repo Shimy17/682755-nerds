@@ -842,16 +842,8 @@ li:hover .goods-text {
     margin: 0;
     margin-bottom: 50px;
     color: #000000;
-    opacity: 0.3;
 
     list-style: none;
-}
-.sort-type:hover,
-.sort-type:focus {
-    opacity: 0.6;
-}
-.sort-type:active {
-    opacity: 1;
 }
 .sort-type li {
     margin-right: 27px;
@@ -869,7 +861,7 @@ li:hover .goods-text {
     opacity: 1;
 }
 .sort-type li:last-child {
-    margin-right: 45px;
+    margin-right: 47px;
 }
 .indicator {
     display: -webkit-box;
@@ -884,8 +876,6 @@ li:hover .goods-text {
     margin: 0;
     margin-bottom: 50px;
     color: #000000;
-    opacity: 0.3;
-
     list-style: none;
 }
 .indicator a {
@@ -899,11 +889,16 @@ li:hover .goods-text {
 .indicator a:active {
     opacity: 1;
 }
-.indicator a {
-    margin-right: 10px;
-}
 .indicator li:last-child {
     margin-right: 0;
+}
+.indicator img {
+    width: 11px;
+    height: 10px;
+}
+.indicator .indicator-active {
+    opacity: 1;
+    margin-right: 19px;
 }
 .filters {
     padding: 0;
@@ -1042,6 +1037,10 @@ li:hover .goods-text {
     background-repeat: no-repeat;
     width: 25px;
     height: 23px;
+    opacity: 0.55;
+}
+.filter-input-checkbox:checked + label::before {
+    display: none;
 }
 .filter-input-checkbox:checked + label::after {
     content: "";
@@ -1053,6 +1052,7 @@ li:hover .goods-text {
     background-position: 0 0;
     width: 25px;
     height: 23px;
+    opacity: 0.55;
 }
 .filter-input-radio + label::before {
     content: "";
@@ -1064,8 +1064,12 @@ li:hover .goods-text {
     width: 25px;
     height: 25px;
     color: #a6a6a6;
+    opacity: 0.55;
 }
 
+.filter-input-radio:checked + label::before {
+    display: none;
+}
 .filter-input-radio:checked + label::after {
     content: "";
     position: absolute;
@@ -1076,6 +1080,7 @@ li:hover .goods-text {
     width: 25px;
     height: 25px;
     color: #a6a6a6;
+    opacity: 0.55;
 }
 .filter-button {
     display: block;
