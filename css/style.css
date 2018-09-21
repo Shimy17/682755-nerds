@@ -1110,7 +1110,7 @@ list-style: none;
     bottom: 0;
     left:50%;
     top: 50%;
-    display: flex;
+    display: none;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     width: 960px;
     height: 590px;
