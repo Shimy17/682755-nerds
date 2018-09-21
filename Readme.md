@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Aleksandr Stoev](https://up.htmlacademy.ru/htmlcss/22/user/682755).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Зубов](https://htmlacademy.ru/profile/serj).
 
 ---
 
